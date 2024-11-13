@@ -3,8 +3,6 @@
  *  Harry Lynch
  *  10/10/2024
  *
- *  CS 15 Project 2 RPNCalculator
- *
  *  Interface for the DatumStack class.  Shows all declarations.
  *
  */
