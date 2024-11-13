@@ -1,7 +1,5 @@
-/*********************************************************
-* Reverse Polish Notation Calculator
-* Author: Harry Lynch 10/10/2024
-*********************************************************/
+Reverse Polish Notation Calculator
+Author: Harry Lynch 10/10/2024
 
 **Summary:**
 ------------------------------
