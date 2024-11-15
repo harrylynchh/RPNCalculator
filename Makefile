@@ -4,8 +4,8 @@
 ### Author:  Harry Lynch
 
 CXX      = clang++
-CXXFLAGS = -g3 -Wall -Wextra -Wpedantic -Wshadow
-LDFLAGS  = -g3 
+CXXFLAGS = -g3 -Wall -Wextra -Wpedantic -Wshadow -fPIC
+LDFLAGS  = -g3 -no-pie
 
 RPNCalculator: main.o RPNCalc.o parser.o DatumStack.o Datum.o 
 	${CXX} ${LDFLAGS} -o RPNCalculator main.o RPNCalc.o parser.o DatumStack.o Datum.o
